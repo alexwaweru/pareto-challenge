@@ -1,9 +1,2 @@
-## Frontend architecture and design decisions
-
-### Architecture
-
-- 
-
-### Design Decisions
-
-- 
+# Frontend Architecture
+![Alt text](../frontend.png?raw=true)

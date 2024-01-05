@@ -1,9 +1,13 @@
-## Backend architecture and design decisions
+# Backend architecture
+![Alt text](../backend.png?raw=true)
 
-### Architecture
+The project is divided into 3 apps
+- api
+- projects
+- search
 
-- 
+### API app
 
-### Design Decisions
+### Projects app
 
-- 
+### Search app
