@@ -1,4 +1,4 @@
-## Frontend architecture and design decisions
+## Backend architecture and design decisions
 
 ### Architecture
 
