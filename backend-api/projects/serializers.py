@@ -28,6 +28,7 @@ class ProjectSerializer(serializers.ModelSerializer):
             'pk',
             'title',
             'description',
+            'requester',
             'public',
             'path',
             'endpoint',

@@ -27,6 +27,7 @@ class Project(models.Model):
     user = models.ForeignKey(User, default=1, null=True, on_delete=models.SET_NULL)
     title = models.CharField(max_length=120)
     description = models.TextField(blank=True, null=True)
+    requester = models.TextField(blank=True, null=True)
     public = models.BooleanField(default=True)
 
     objects = ProjectManager()

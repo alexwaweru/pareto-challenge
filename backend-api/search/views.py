@@ -12,9 +12,6 @@ class SearchListView(generics.GenericAPIView):
         if request.user.is_authenticated:
             user = request.user.id
         query = request.GET.get('q')
-        print(f'query: {query}')
-        print(f'public: {request.GET.get('public')}')
-        print(f'user: {user}')
         public = bool(request.GET.get('public'))
         if not query:
             return Response('', status=400)
