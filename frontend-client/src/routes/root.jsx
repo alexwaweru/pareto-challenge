@@ -9,7 +9,7 @@ import {
     useSubmit,
   } from "react-router-dom";
 
-import { getPojects, createProject } from "../api/projects";
+import { getPojects } from "../api/projects";
 
 export async function loader({ request }) {
     const url = new URL(request.url);

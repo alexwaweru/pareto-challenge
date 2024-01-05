@@ -50,7 +50,6 @@ export default function CreateProject() {
         <input
           type="text"
           name="requester"
-          defaultValue={project.requester}
         />
       </label>
       <p>

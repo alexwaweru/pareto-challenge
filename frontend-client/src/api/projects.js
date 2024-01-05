@@ -1,7 +1,3 @@
-import localforage from "localforage";
-import { matchSorter } from "match-sorter";
-import sortBy from "sort-by";
-
 const BASE_URL = 'http://localhost:8000/api'
 
 export async function getPojects(query) {
